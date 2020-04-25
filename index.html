@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Power Party</title>
+  <script defer src='./app.js' ></script>
+</head>
+<body> 
+  <h1>Pokemon Power Party</h1>
+  <div>
+    <form action="http://localhost:9000/pokemons" method='POST'>
+      <h2>add a pokemon</h2>
+      <label for:'name'>input Pokemon Name</label>
+      <input type='text' id='name' name='name'>
+      <select name="move_id" id='select-options'>
+      </select>
+      <input type='submit'>
+    </form>
+  </div> 
+  <section id='show-pokemon-container'>
+
+  </section>
+</body>
+</html>
